@@ -22,7 +22,7 @@ public class FindServlet extends HttpServlet {
         String word = req.getParameter("word");
         PrintWriter out = resp.getWriter();
 
-        WordProcessor proc = new WordProcessor("D:\\polytechnic\\text-for-word.txt");
+        WordProcessor proc = new WordProcessor("C:\\JavaProjectFolder\\demo2\\src\\main\\resources\\text.txt");
         proc.read();
         out.println(proc);
         out.println(proc.findWord(word));
