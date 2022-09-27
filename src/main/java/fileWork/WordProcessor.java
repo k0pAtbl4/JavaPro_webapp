@@ -12,13 +12,13 @@ public class WordProcessor {
     }
 
     public void read() {
-        if(!data.isEmpty()) {
+        if (!data.isEmpty()) {
             data.clear();
         }
         ioTool reader = new ioTool();
         String fileData = reader.readFile(filename);
         String[] words = new String[0];
-        if(fileData != null) {
+        if (fileData != null) {
             fileData = fileData.replace(", ", " ").replace(". ", " ");
             words = fileData.split(" ");
         }
@@ -34,7 +34,7 @@ public class WordProcessor {
 
     public int findWord(String word) {
         int amount = 0;
-        if(data.containsKey(word)) {
+        if (data.containsKey(word)) {
             amount = data.get(word);
         }
         return amount;

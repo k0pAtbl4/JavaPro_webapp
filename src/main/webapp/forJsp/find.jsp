@@ -6,7 +6,7 @@
 <body>
 <form method="post">
     <label>Word:
-        <input type="text" name="word"><br />
+        <input type="text" name="word"><br/>
     </label>
     <button type="submit">Submit</button>
 </form>

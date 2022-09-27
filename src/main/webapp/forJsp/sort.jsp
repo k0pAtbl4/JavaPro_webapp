@@ -6,7 +6,7 @@
 <body>
 <form method="post">
     <label>Array:
-        <input type="text" name="array"><br />
+        <input type="text" name="array"><br/>
     </label>
     <button type="submit">Submit</button>
 </form>
