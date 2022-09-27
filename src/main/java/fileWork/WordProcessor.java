@@ -31,7 +31,6 @@ public class WordProcessor {
             }
         }
     }
-    //comment
 
     public int findWord(String word) {
         int amount = 0;
